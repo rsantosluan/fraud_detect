@@ -22,8 +22,8 @@ class preparacao_dados:
 
     ### Feature Engineering
     def feature_eng( data_raw ):
-        data_raw['dif_balance_origin'] = data_raw[['oldbalanceOrg', 'newbalanceOrig']].apply( lambda x : x['oldbalanceOrg'] - x['newbalanceOrig'], axis = 1 )        
-        data_raw['dif_balance_dest'] = data_raw[['oldbalanceDest', 'newbalanceDest']].apply( lambda x : x['oldbalanceDest'] - x['newbalanceDest'], axis = 1 )
+        data_raw['dif_balance_origin'] = data_raw[['oldbalanceOrg', 'newbalanceOrig', 'amount']].apply( lambda x : x['oldbalanceOrg'] - x['amount'] - x['newbalanceOrig'], axis = 1 )        
+        data_raw['dif_balance_dest'] = data_raw[['oldbalanceDest', 'newbalanceDest', 'amount']].apply( lambda x : x['oldbalanceDest'] + x['amount'] - x['newbalanceDest'], axis = 1 )
 
         return data_raw
 
