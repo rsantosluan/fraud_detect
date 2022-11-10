@@ -54,13 +54,13 @@ Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Conf
 
 ![Teste dos modelos](/img/m_perf.png)
 <b> <center> Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</b></center>
+<br>
+<i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
 
-|<i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
-----
-|- <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.|
-|- <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.|
-|- <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.|
-|- <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>|
+- <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.
+- <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.
+- <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.
+- <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>
 
 
 #### -Fine Tuning(Ajuste dos parâmetros modelo) e Feature Selection(seleção de variáveis) 
@@ -98,5 +98,5 @@ Valores Monetários
 | Métrica                                                                                                              | Valor real   | %                  |
 | :------------------                                                                                                  | :----------: | -----------------: | 
 | Erro quanto a previsões indicando <b> fraudes</b> quando a transação <b>não era fraudulenta</b>(falsos positivos)    |      4       |      0.00181%      |                     
-| rro quanto a previsões indicando <b>não fraudes</b> quando a transação <b>era fraudulenta</b>(falsos negativos)      |      1       |      0.000453%     |                     
+| Erro quanto a previsões indicando <b>não fraudes</b> quando a transação <b>era fraudulenta</b>(falsos negativos)      |      1       |      0.000453%    |                     
 
