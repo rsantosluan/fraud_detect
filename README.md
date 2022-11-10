@@ -26,6 +26,8 @@ Frente a exigências previamente acordadas, o relatório deve conter as seguinte
 # Relatorio:
 <p>Frente a demanda relatada préviamente em reunião, retorno-lhe o seguinte documento contendo resultados de análise feitas na base de dados e resultados do modelo com relação a custos, retorno e lucro previstos caso o modelo seja colocado em produção.</p>
 
+---
+
 ### Resumo da análise dos dados
 - Total de dados transacionais analisados = 6.362.620
 - A análise completa pode ser acessado por este [link](https://github.com/rsantosluan/fraud_detect/blob/master/Jnotebooks/eda.ipynb)
@@ -41,12 +43,16 @@ Frente a exigências previamente acordadas, o relatório deve conter as seguinte
 
  <p>Ao final desta etapa, foram excluídos os dados elencados na hipótese 1 bem como algumas variáveis(colunas) categóricas que serão melhor avaliadas em segundo ciclo de desenvolvimento.</p>
 
+---
+
 ### Resumo da preparação dos dados e embazamento da escolha do modelo
 A preparação e modelagem completas pode ser acessado por este [link](https://github.com/rsantosluan/fraud_detect/blob/master/Jnotebooks/EDA_basica-C2.ipynb)
 
 - Primeiramente os dados forma divididos em: treino, teste e validação. Em suma, essa separação é feita para garantir a generalização do modelo em dados nunca 'vistos' por ele. Reproduzindo assim um ambiente muito parecido com quando o modelo for colocado em produção.
 - Em seguida os dados foram normalizados. O que garante que todos os dados numéricos sejam remodelados para uma escala padrão, evitando assim o viés do modelo para dados de maiores escalas.
 - Como os modelos de Machine Learning não trabalham bem com variáveis categóricas, usando ferramentas adequadas, os dados foram devidamente convertidos para padrões numéricos.
+
+---
 
 #### -Testes de modelos
 <p>Foram testados nesta etapa 4 modelos. Sendo dois baseados em em árvore de decisão e os demais baseados em análise de regressão linear.
@@ -84,6 +90,8 @@ Levando em cosideração as análises da segunda hipótese, foram criadas 2 nova
 O modelo teve um desempenho excelente na detecção das fraudes tendo baixímos índices de erro alcançando uma média de 99% de acertividade nas previsões de fraudes detectadas:
 
 ![Teste dos modelos](/img/mfinal_perf.png)
+
+--- 
 
 ### -Métricas de negócio
 <p> Cálculo baseado no conjunto de dados de validação. </p>
