@@ -1,8 +1,8 @@
 #### ! O Contexto a seguir é completamente fictício !
 
 ![](https://www.bosch.com.br/media/stories/aiot/cyber_security/cyber_security_bosch_banner.png)
-## Projeto de Detecção de fraudes financeiras
-## **Fraud Protect Company**
+# Projeto de Detecção de fraudes financeiras -- Fraud Protect Company --
+
 ## Contextualização
 <p>A FPC é uma empresa especializada na detecção de fraudes em transações financeiras. <br>
 Dentre outros, a empresa possui um serviço que garante o bloqueio de transações fraudulentas baseado em um modelo de negócio do tipo serviço com monetização fixa por performance do modelo de detecção. Recebendo uma taxa fixa sobre o sucesso na detecção de fraude nas transações de clientes. Por ser uma empresa em fase de expansão, adotou uma estratégia agressiva que funciona da seguinte forma: </p>
