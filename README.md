@@ -45,7 +45,7 @@ Frente a exigências previamente acordadas, o relatório deve conter as seguinte
 
 ---
 
-### Resumo da preparação dos dados e embazamento da escolha do modelo
+### Resumo da preparação dos dados e embasamento da escolha do modelo
 A preparação e modelagem completas pode ser acessado por este [link](https://github.com/rsantosluan/fraud_detect/blob/master/Jnotebooks/EDA_basica-C2.ipynb)
 
 - Primeiramente os dados forma divididos em: treino, teste e validação. Em suma, essa separação é feita para garantir a generalização do modelo em dados nunca 'vistos' por ele. Reproduzindo assim um ambiente muito parecido com quando o modelo for colocado em produção.
