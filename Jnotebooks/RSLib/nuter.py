@@ -35,8 +35,8 @@ class preparacao_dados:
         2- Os dados numpericos serão submetidos ao MinMaxScaler;
         '''
         ## Separando numéricos e categóricos
-        x_num = data_raw.select_dtypes( include = ['float64', 'int64'] ).reset_index( drop = True )
-        x_cat = data_raw[['type']].reset_index( drop = True ).copy()
+        x_num = data_raw.select_dtypes( include = ['float64', 'int64'] )
+        x_cat = data_raw[['type']].copy()
 
         ###--- Robust Scaler ---###
         if rs == '':
@@ -53,16 +53,16 @@ class preparacao_dados:
         ###--- One Hot Encoder ---###
         x_cat['TRANSFER'] = x_cat['type'].apply( lambda x : 1 if x == 'TRANSFER' else 0 ).copy()   
         x_cat['CASH_OUT'] = x_cat['type'].apply( lambda x : 1 if x == 'CASH_OUT' else 0 ).copy()   
-        data_cat = x_cat.drop( columns = ['type'] )
 
         ## Renomeando colunas do DataFrame numérico
         data_num.columns = x_num.columns
 
         ## Concatenando DF numérico e categórico
-        #data_cat.reset_index( inplace = True, drop = True )
-        #data_num.reset_index( inplace = True, drop = True )
-        data = pd.concat( [data_num, data_cat], axis=1 )
-
+        x_cat.reset_index( inplace = True )
+        x_num.reset_index( inplace = True )
+        data = x_cat.merge( x_num, how = 'inner', on = 'index' )    
+        data.index = data['index']
+        data.drop( columns = ['index', 'type'], inplace = True )
 
         return data, rs, mms     
 

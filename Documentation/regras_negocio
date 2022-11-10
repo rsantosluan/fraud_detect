@@ -1,0 +1,3 @@
+1- A empresa recebe 15% do valor de cada transação fraudulenta detectada.
+2- A empresa deve arcar com uma multa de 5% do valor de cada transação detectada como fraude, porém a transação é legítima.
+3- A empresa deve devolver 100% do valor para o cliente em cada transação detectada como legítima, porém a transação é na verdade uma fraude.
