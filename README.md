@@ -98,7 +98,7 @@ O modelo teve um desempenho excelente na detecção das fraudes tendo baixímos 
 <p> Cálculo baseado no conjunto de dados de validação. </p>
 
 
-Valores Monetários
+<b> Valores Monetários </b>
 | Métrica                                         | Valor
 | :------------------                             | :----------: 
 | Retoorno (Positivos reais)                      | 164.455.817,68        
@@ -107,7 +107,7 @@ Valores Monetários
 | Valor total movimentado                         | 70.688.438.278,38       
 
 
-
+<b> Acertividade do modelo </b>
 | Métrica                                                                                                              | Valor real   | %                  |
 | :------------------                                                                                                  | :----------: | -----------------: | 
 | Erro quanto a previsões indicando <b> fraudes</b> quando a transação <b>não era fraudulenta</b>(falsos positivos)    |      4       |      0.00181%      |                     
