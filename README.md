@@ -56,12 +56,13 @@ A preparação e modelagem completas pode ser acessado por este [link](https://g
 #### -Testes de modelos
 <p>Foram testados nesta etapa 4 modelos. Sendo dois baseados em em árvore de decisão e os demais baseados em análise de regressão linear.
 Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Confusion Matrix):
+<br>
 <sub> <i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
 
-- <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.
-- <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.
-- <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.
-- <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>
+<sub> <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.
+<sub> <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.
+<sub> <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.
+<sub> <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>
 </i> </sub>
 
 ![Teste dos modelos](/img/m_perf.png)
