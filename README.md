@@ -57,8 +57,6 @@ A preparação e modelagem completas pode ser acessado por este [link](https://g
 <p>Foram testados nesta etapa 4 modelos. Sendo dois baseados em em árvore de decisão e os demais baseados em análise de regressão linear.
 Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Confusion Matrix):
 
-*** 
-
 <br>
 <sub> <i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: </br></sub>
 <sub> <b>- Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são. </br> </sub>
@@ -71,7 +69,6 @@ Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Conf
 <b> <center> Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</b></center>
 <br>
 
-***
 
 
 #### -Fine Tuning(Ajuste dos parâmetros modelo) e Feature Selection(seleção de variáveis) 
