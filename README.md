@@ -107,7 +107,7 @@ O modelo teve um desempenho excelente na detecção das fraudes tendo baixímos 
 | Valor total movimentado                         | 70.688.438.278,38       
 
 
-<b> Acertividade do modelo </b>
+<b> Índice de erros nas previsões do modelo </b>
 | Métrica                                                                                                              | Valor real   | %                  |
 | :------------------                                                                                                  | :----------: | -----------------: | 
 | Erro quanto a previsões indicando <b> fraudes</b> quando a transação <b>não era fraudulenta</b>(falsos positivos)    |      4       |      0.00181%      |                     
