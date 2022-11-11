@@ -44,7 +44,7 @@ Frente a exigências previamente acordadas, o relatório deve conter as seguinte
 ![Distribuição dos dados em caso de fraude](/img/h2.png)
  </p>
 
- <p>Ao final desta etapa, foram excluídos os dados elencados na hipótese 1 bem como algumas variáveis(colunas) categóricas que serão melhor avaliadas em segundo ciclo de desenvolvimento.</p>
+ <sub> Ao final desta etapa, foram excluídos os dados elencados na hipótese 1 bem como algumas variáveis(colunas) categóricas que serão melhor avaliadas em segundo ciclo de desenvolvimento.</sub>
 
 ---
 
