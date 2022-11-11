@@ -1,7 +1,7 @@
 #### ! O Contexto a seguir é completamente fictício !
 
 ![](img/fraud_detect.png)
-# <center> Projeto de Detecção de fraudes financeiras -- Fraud Protect Company -- </center>
+# <center> Projeto de Detecção de fraudes financeiras <br>-- Fraud Protect Company -- </center>
 
 ## Contextualização
 <p>A FPC é uma empresa especializada na detecção de fraudes em transações financeiras. <br>
