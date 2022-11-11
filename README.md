@@ -1,6 +1,6 @@
 #### ! O Contexto a seguir é completamente fictício !
 
-![](https://www.bosch.com.br/media/stories/aiot/cyber_security/cyber_security_bosch_banner.png)
+![](img/fraud_detect.png)
 # <center> Projeto de Detecção de fraudes financeiras -- Fraud Protect Company -- </center>
 
 ## Contextualização
