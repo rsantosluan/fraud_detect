@@ -58,12 +58,11 @@ A preparação e modelagem completas pode ser acessado por este [link](https://g
 Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Confusion Matrix):
 <br>
 <sub> <i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
-
-<sub> <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.
-<sub> <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.
-<sub> <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.
-<sub> <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>
-</i> </sub>
+<sub> <b>- Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são. </br> </sub>
+<sub> <b>- Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.  </br></sub>
+<sub> <b>- Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes. </br> </sub>
+<sub> <b>- Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </br> </p> </sub>
+</i> 
 
 ![Teste dos modelos](/img/m_perf.png)
 <b> <center> Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</b></center>
