@@ -52,26 +52,23 @@ A preparação e modelagem completas pode ser acessado por este [link](https://g
 - Em seguida os dados foram normalizados. O que garante que todos os dados numéricos sejam remodelados para uma escala padrão, evitando assim o viés do modelo para dados de maiores escalas.
 - Como os modelos de Machine Learning não trabalham bem com variáveis categóricas, usando ferramentas adequadas, os dados foram devidamente convertidos para padrões numéricos.
 
----
 
 #### -Testes de modelos
 <p>Foram testados nesta etapa 4 modelos. Sendo dois baseados em em árvore de decisão e os demais baseados em análise de regressão linear.
 Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Confusion Matrix):
-
-![Teste dos modelos](/img/m_perf.png)
-<b> <center> Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</b></center>
-<br>
-
---- 
-
-<i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
+<sub> <i> As matrizes de confusão, trazem os dados dispostos da seguinte maneira: 
 
 - <b>Quadrante superior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, realmente não são.
 - <b>Quadrante inferior esquerdo</b>: Quantos registros previstos pelo modelo como <b>não fraudulentos</b>, na verdade são fraudes.
 - <b>Quadrante superior direito</b> : Quantos registros previstos pelo modelo como <b>fraudulentos</b>, na verdade não são fraudes.
 - <b>Quadrante inferior direito</b> : Quantos registros previstos pelo modelo como não <b>fraudulentos</b>, realmente são. </p>
+</i> </sub>
 
----
+![Teste dos modelos](/img/m_perf.png)
+<b> <center> Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</b></center>
+<br>
+
+
 
 #### -Fine Tuning(Ajuste dos parâmetros modelo) e Feature Selection(seleção de variáveis) 
 <p>
