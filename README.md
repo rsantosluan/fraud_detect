@@ -66,7 +66,7 @@ Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Conf
 </i> 
 
 ![Teste dos modelos](/img/m_perf.png)
-<center> <markdown>  Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</markdown></center>
+<center>Pela melhor performance frente a análise da matriz de confusão, o modelo utilizado será o XGBoost.</center>
 <br>
 
 
