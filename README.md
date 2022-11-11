@@ -74,8 +74,10 @@ Como resultado da performance dos modelos, foi gerada as seguintes matrizes(Conf
 
 #### -Fine Tuning(Ajuste dos parâmetros modelo) e Feature Selection(seleção de variáveis) 
 <p>
+
 - <b>Fine Tuning:</b> Foram feitos diversos ajustes diferentes na tentativa de melhorar a performance do modelo nesta etapa mas, os parâmetros padrões, obtiveram resultados com uma melhor performance. 
 - <b>Feature Selection:</b> O modelo se mostrou melhor com a utilização de todas as features, com exceção de 'isFlaggedFraud'.
+
 </p> 
 
 #### -Feature Engineering(Criação de novas variáveis)
