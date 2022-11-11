@@ -29,7 +29,7 @@ Frente a exigências previamente acordadas, o relatório deve conter as seguinte
 # Relatorio:
 <p>Frente a demanda relatada préviamente em reunião, retorno-lhe o seguinte documento contendo resultados de análise feitas na base de dados e resultados do modelo com relação a custos, retorno e lucro previstos caso o modelo seja colocado em produção.</p>
 
----
+
 
 ### Resumo da análise dos dados
 - Total de dados transacionais analisados = 6.362.620
